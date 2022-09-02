@@ -3,19 +3,34 @@ import java.util.Scanner;
 public class c7e4 {
 
     static Scanner input = new Scanner(System.in);
+    static void question(int score){
+        System.out.println("question 1");
+        String r1=input.nextLine();
+        String rc1="";
+        if (r1.equals(rc1)) {
+            score+=3;
+            System.out.println("Vous gagnez 3 points.");
+        }
+        else {
+            System.out.println("Réponse incorecte!\nProchaine question...");
+        }
+    }
 
     public static void main(String[] args) {
-
-
-
-    // partie de David
-
+        int score=0;
+        System.out.println("question 1");
+        String r1=input.nextLine();
+        String rc1="";
+        if (r1.equals(rc1)) {
+            score=3;
+            System.out.println("Vous gagnez 3 points.");
+        }
+        else {
+            System.out.println("Réponse incorecte!\nProchaine question...");
+        }
     // 1, 4, 7, 10, 13, 16, 19 reponse direct
     // 2, 5, 8, 11, 14, 17, 20 vrais ou faux
     // 3, 6, 9, 12, 15 ,18, QCM
-
-        int score = 0; // doublon a effacer
-
         // question 2
 
         // question 3
