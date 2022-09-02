@@ -5,15 +5,14 @@ public class c7e4 {
     static Scanner input=new Scanner(System.in);
 
     public static void main(String[] args) {
-
-        String[] players = { "u1", "u2", "u3" };
-
-        System.out.println(players[0]);
-        System.out.println(players[1]);
-        System.out.println(players[2]);
-
-        for (int i = 0; i < players.length; i++) {
-            System.out.println(players[i]);
+        int score=0;
+        System.out.println("question 1");
+        String r1=input.nextLine();
+        String rc1="";
+        if (r1.equals("rc1")) {
+            score=3;
+            System.out.println("Vous gagnez 3 points.");
         }
+
     }
 }
