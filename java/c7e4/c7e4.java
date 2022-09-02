@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class c7e4 {
 
+    // reponse direct
+    // vrais ou faux
+    // QCM
+
     static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -15,6 +19,14 @@ public class c7e4 {
             score = 3;
             System.out.println("Vous gagnez 3 points.");
         }
+
+
+
+
+        // partie de David
+
+
+
 
     }
 
