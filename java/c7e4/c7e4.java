@@ -7,25 +7,15 @@ public class c7e4 {
     public static void main(String[] args) {
 
         int score = 0;
-        //score = Qmult("combien de pattes ont les chats ?", 3, ("4", "2","3","4"));
+        System.out.println("question 1");
+        String r1 = input.nextLine();
+        String rc1 = "";
 
-    }
-
-    // cette fonction va poser une question, la question est en paramètre.
-    // la réponse à la question est également un paramètre.
-    // les question à choix multiple sont composée de 4 propositions
-
-    static int Qmult(String _Question, int _responce, String[] _case) {
-
-        String _r = "";
-
-        System.out.println("question ?\n[" + _case[0] + "]\n[" + _case[1] + "]\n[" + _case[2] + "]\n[" + _case[3] + "]\n");
-
-
-        if (_r == "") {
-            return 2;
-        } else {
-            return 0;
+        if (r1.equals(rc1)) {
+            score = 3;
+            System.out.println("Vous gagnez 3 points.");
         }
+
     }
+
 }
