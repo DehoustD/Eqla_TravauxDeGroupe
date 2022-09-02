@@ -9,7 +9,7 @@ public class c7e4 {
         System.out.println("question 1");
         String r1=input.nextLine();
         String rc1="";
-        if (r1.equals("rc1")) {
+        if (r1.equals(rc1)) {
             score=3;
             System.out.println("Vous gagnez 3 points.");
         }
